@@ -33,7 +33,7 @@ export default function Page() {
               ))}
             </PinInput.Control>
             <div className="font-normal text-base text-[#344054]">
-              Didn't receive code?{" "}
+              Did not receive code?{" "}
               <span className="font-semibold text-[#6941C6]">
                 Request again
               </span>
