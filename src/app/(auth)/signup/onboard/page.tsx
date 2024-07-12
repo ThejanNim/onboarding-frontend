@@ -1,3 +1,5 @@
+import { AvatarSelection } from "@/components/molecules/AvatarSelection/AvatarSelection";
+
 export default function Page() {
-  return <div>onboard</div>;
+  return <AvatarSelection />;
 }

@@ -5,8 +5,11 @@ import { PinInput } from "@ark-ui/react";
 import Image from "next/image";
 
 import verification from "./assets/verification.svg";
+import { useRouter } from "next/navigation";
 
 export default function Page() {
+  const router = useRouter();
+
   return (
     <div className="max-w-7xl m-auto flex items-center justify-between h-screen">
       <div className="flex flex-col gap-10">
@@ -42,7 +45,7 @@ export default function Page() {
           </PinInput.Root>
         </div>
         <div>
-          <Button className="w-32 bg-[#7F56D9] text-white">Verify</Button>
+          <Button className="w-32 bg-[#7F56D9] text-white" onClick={() => router.push("/signup/onboard")}>Verify</Button>
         </div>
       </div>
       <Image src={verification} alt="illustration" />
