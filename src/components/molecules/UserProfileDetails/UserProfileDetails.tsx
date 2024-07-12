@@ -64,8 +64,8 @@ export function UserProfileDetails() {
             </div>
           </div>
         </div>
-        <p className="text-[#667085] text-center">
-          Powered by <span className="text-[#101828]">onboarding.com</span>
+        <p className="text-[#667085] text-center leading-[18px]">
+          Powered by <span className="text-[#101828] font-semibold leading-[18px]">onboarding.com</span>
         </p>
       </div>
     </div>
